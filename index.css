@@ -92,7 +92,7 @@ body{
     
 } */
 
-@media screen and (width < 413px){
+/* @media screen and (width < 413px){
 
     .main{
         height: 100vh;
@@ -110,4 +110,4 @@ body{
     #dream{
         width: 40vw;
     }
-}
+} */
