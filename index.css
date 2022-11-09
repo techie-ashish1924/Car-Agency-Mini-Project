@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+}
+
+.main{
+    margin: 0px;
+    background-image: url("./Images/minibg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+
+    
+}
+
+
+
+.navbar{
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+   padding-top: 10px;
+   
+}
+
+#logo img{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    /* padding: 5px; */
+   
+}
+
+#content{
+    margin: 45px;
+    font-size: larger;
+    font-weight: bold;
+    color:aqua;
+}
+
+#dream{
+    color: white;
+    width: 40vw;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 10px;
+}
+
+#aboutcontent{
+    margin-left: 10px;
+    color: antiquewhite;
+    text-align: center;
+    width: 40vw;
+}
+
+#buttondiv{
+    margin-left: 10px;
+    text-align: center;
+    width: 35vw;
+    margin-top: 40px;
+}
+#buttonread{
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+
+}
+
+#discount{
+    margin-top: 40px;
+    color: white;
+    font-size: larger;
+}
+
+
+/* @media screen and (width <= 1733px){
+
+    .main{
+        height: 80vh;
+        width: 100vw;
+    }
+    
+} */
+
+@media screen and (width < 413px){
+
+    .main{
+        height: 100vh;
+        width: 350vw;
+    }
+    
+    .fSpan{
+        font-size: 10px;
+    }
+
+    .sSpan{
+        color: blue;
+    }
+
+    #dream{
+        width: 40vw;
+    }
+}
